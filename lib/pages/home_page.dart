@@ -32,7 +32,7 @@ class _HomePageState extends State<HomePage> {
             flexibleSpace: FlexibleSpaceBar(
               title: Text(
                 'My Budget',
-                style: GoogleFonts.aBeeZee(
+                style: GoogleFonts.sourceSansPro(
                   fontSize: 12.sp,
                   letterSpacing: 1.0,
                   fontWeight: FontWeight.w500,
@@ -107,7 +107,7 @@ class _HomePageState extends State<HomePage> {
               children: [
                 Text(
                   category.name!,
-                  style: GoogleFonts.abel(
+                  style: GoogleFonts.sourceSansPro(
                     fontSize: 14.sp,
                     color: kTextColor,
                     fontWeight: FontWeight.w500,
@@ -116,7 +116,7 @@ class _HomePageState extends State<HomePage> {
                 ),
                 Text(
                   '\$${(category.maxAmount! - tAmountSpent).toStringAsFixed(2)} / \$${category.maxAmount!.toStringAsFixed(2)}',
-                  style: GoogleFonts.atma(
+                  style: GoogleFonts.sourceSansPro(
                     fontSize: 14.sp,
                     color: kTextColor,
                     fontWeight: FontWeight.w500,

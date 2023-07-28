@@ -22,7 +22,7 @@ class CustomChart extends StatelessWidget {
         children: [
           Text(
             'Weekly Spending',
-            style: GoogleFonts.abel(
+            style: GoogleFonts.sourceSansPro(
               fontSize: 13.sp,
               fontWeight: FontWeight.w600,
               color: kTextColor,
@@ -38,7 +38,7 @@ class CustomChart extends StatelessWidget {
               CustomBtn(onPress: () {}, iconData: Icons.arrow_back_outlined),
               Text(
                 'Nov 10, 2020 - Nov 18, 2021',
-                style: GoogleFonts.atma(
+                style: GoogleFonts.sourceSansPro(
                     fontSize: 13.sp,
                     fontWeight: FontWeight.w600,
                     color: kTextColor),
@@ -107,7 +107,7 @@ class CustomBar extends StatelessWidget {
       children: [
         Text(
           '\$${amountSpent.toStringAsFixed(2)}',
-          style: GoogleFonts.aubrey(
+          style: GoogleFonts.sourceSansPro(
               fontSize: 11.sp, fontWeight: FontWeight.w500, color: kTextColor),
         ),
         SizedBox(
@@ -126,7 +126,7 @@ class CustomBar extends StatelessWidget {
         ),
         Text(
           day,
-          style: GoogleFonts.abel(
+          style: GoogleFonts.sourceSansPro(
               fontSize: 11.sp, fontWeight: FontWeight.w600, color: kTextColor),
         ),
       ],
